@@ -43,3 +43,11 @@ img{
     width: 625px;      
     height: 700px;
 }
+
+nav{
+    background-color: #fc6998;
+    border-radius: 10px;
+    box-shadow:0px 2px 8px;
+    width: 150px;
+    height: 5px;
+}

@@ -179,3 +179,10 @@ footer{
   html{
     scroll-behavior:smooth;
 }
+.galeria img:hover{
+  transition: transform 5s ease;
+  transform: translateY(-20px) scale(1.05);
+}
+.galeria img:hover {
+  animation: balanceo 1.5s ease-in-out infinite;
+}

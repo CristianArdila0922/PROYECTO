@@ -50,7 +50,7 @@ margin:auto;
 }
 
 html{
-    background: linear-gradient(#fa8fb1,#f74780);
+    background: linear-gradient(#e89eb8,#b5b5b5);
 }
 .contenedor {
     display: flex;
@@ -101,3 +101,28 @@ ol{
     text-decoration: none;
     list-style: none;
 }
+
+
+section.carrusel-track {
+    display: flex;
+    gap: 20px;
+    animation: moverIzquierda 10s linear infinite;
+    width: 5px;
+    margin: auto;
+  }
+  .carrusel-track img {
+    width: 500px;      
+    height: auto;
+    border-radius: 20px;  
+}
+  @keyframes moverIzquierda {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-800px * 3 - 20px * 3));
+    }
+  }
+  .carrusel-track:hover {
+    animation-play-state: paused;
+  }

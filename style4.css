@@ -4,6 +4,7 @@ button{
     border: none;
     box-shadow:0px 2px 8px;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
 }
 a{
     text-decoration: none;
@@ -14,7 +15,7 @@ a{
     color: black;
 }
 nav{
-    background-color: #fc6998;
+    background-color: #ffb7d5;
     border-radius: 10px;
     box-shadow:0px 2px 8px;
     width: 700px;
@@ -37,3 +38,79 @@ ul{
 html{
     background: linear-gradient(#e89eb8,#b5b5b5);
 }
+footer{
+    text-align: center;
+}
+.secciones-personalizadas{
+    border-style: groove;
+    width: 65%;
+    margin:  40px auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    box-shadow: 0px 2px 8px;
+    background-color: #ffb7d5;
+    border-radius: 10px;
+}
+.Divisa{
+    border: none;
+    background-color: #ffb7d5;
+}
+div{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    gap: 20px;            
+    align-items: center;  
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .galeria img {
+    width: 100%;
+    border-radius: 20px;  
+    object-fit: cover;    
+  }
+  .foto-central {
+    height: 500px;        
+  }
+  
+ 
+  .foto-lateral {
+    height: 350px;        
+    opacity: 0.8;         
+  }
+
+  .contenedor {
+    display: flex;
+  }
+  @media (max-width: 600px) {
+    .contenedor {
+      flex-direction: column;
+    }
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  html{
+    scroll-behavior:smooth;
+}
+.galeria img:hover{
+    transition: transform 5s ease;
+    transform: translateY(-20px) scale(1.05);
+  }
+  .galeria img:hover {
+    animation: balanceo 1.5s ease-in-out infinite;
+  }

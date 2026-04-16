@@ -1,0 +1,39 @@
+button{
+    background-color:#fa8fb1;
+    border-radius: 10px;
+    border: none;
+    box-shadow:0px 2px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    background-color: #fc6998;
+    border-radius: 10px;
+    box-shadow:0px 2px 8px;
+    width: 700px;
+    gap: 10%;
+margin:auto;
+}
+h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+    height: 1cm;
+    list-style: none;
+    justify-content: center;
+    gap: 1.5%;
+    color: black;
+    text-decoration: none;
+}
+html{
+    background: linear-gradient(#e89eb8,#b5b5b5);
+}
